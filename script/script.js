@@ -3,7 +3,7 @@ let secondSquare = document.getElementById('square');
 let thirdSquare = document.getElementById('square2');
 let isDragging = false;
 
-firstSquare.addEventListener('mousedown', (e) => {
+thirdSquare.addEventListener('mousedown', (e) => {
     isDragging = true;
     thirdSquare.style.top=`${e.clientY-50}px`;
     thirdSquare.style.left=`${e.clientX-60}px`;
